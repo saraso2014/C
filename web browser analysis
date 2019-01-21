@@ -1,0 +1,32 @@
+  
+  //C++ I think?
+  struct Webpage
+  {
+      std::string url;
+      size_t numberOfVisits;
+  };
+  
+  struct History
+  {
+      void visit(const std::string &
+      {
+      //implement the logic
+      }
+      
+      void printTop5()
+      {
+      //implement the logic
+      }
+};
+ 
+ int main()
+{
+      History h;
+      std::cout << "before visits\n";
+      h.visit("www.google.com");
+      h.visit("www.nytimes.com");
+      h.visit("www.guardian.co.uk");
+      h.visit("www.dev.ibm.com");
+      std::cout << "after visits\n";
+      h.print();
+}
