@@ -1,0 +1,9 @@
+/*
+
+"(aa)bb" -> true
+"[ aa [ bbb ]" -> false
+"aa } bbb { c" -> false
+"aa [ bb () ]" -> true
+"[aa { ] cc } ]" -> false
+
+*/
